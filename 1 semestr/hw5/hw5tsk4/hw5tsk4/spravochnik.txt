@@ -1,0 +1,3 @@
+masha 77
+petya 66
+vanya 345
