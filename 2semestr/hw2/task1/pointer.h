@@ -1,21 +1,21 @@
 #pragma once
 #include "list.h"
 
-class Array : public List
+class Pointer : public List
 {
 public:
-    Array();
+    Pointer();
     void addToBegin(int n);
     void addToEnd(int n);
     void addToThePosition(int n, int position);
     void isElement(int n);
-    void deleteList();
     void deleteElement(int n);
+    void deleteList();
     void printSize();
     void printList();
 private:
     int read();
-    static const int dim = 1000;
-    int mas[dim];
+    int value;
+    Pointer* next;
     int size;
 };

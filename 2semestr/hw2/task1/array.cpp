@@ -72,3 +72,8 @@ void Array::isElement(int n)
     if (isIn == false)
         cout << "no" << endl;
 }
+
+void Array::deleteList()
+{
+    size = 0;
+}

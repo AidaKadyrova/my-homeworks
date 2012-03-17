@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2012-03-14T13:30:55
+# Project created by QtCreator 2012-03-17T20:40:08
 #
 #-------------------------------------------------
 
@@ -16,8 +16,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
+    pointer.cpp \
     array.cpp
 
 HEADERS += \
-    list.h \
+    List.h \
+    pointer.h \
     array.h
